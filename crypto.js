@@ -145,7 +145,7 @@ client.on('interactionCreate', async interaction => {
             
             // Notify the admin that a ticket was closed
             const admin = await client.users.fetch(adminId);
-            await admin.send(`Ticket #${ticketId} has been closed by ${user.tag}.`);
+            await admin.send(`Ticket #${ticketId} has been closed.`);
 
             await interaction.reply({ content: `Ticket #${ticketId} has been closed.`, ephemeral: true });
         } else {
