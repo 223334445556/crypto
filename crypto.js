@@ -11,8 +11,8 @@ const client = new Client({
 
 const adminId = '830112709009604661';
 const clientId = '1344687765303984212';
-const tokenPart1 = 'MTM0NDY4Nzc2NTMwMzk4NDIxMg.Gs1rvw.72OWg';
-const tokenPart2 = 'ETLuy99omoa-V323hHh--SzrYuHIThR08';
+const tokenPart1 = 'MTM0NDY4Nzc2NTMwMzk4NDIxMg.GvbZ7q.g';
+const tokenPart2 = 'uFTmPeIhapVAHY82S-vliQy46jERAPEE-fAbo';
 const botToken = tokenPart1 + tokenPart2;
 
 let tickets = {};
